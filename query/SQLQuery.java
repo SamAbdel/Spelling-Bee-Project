@@ -77,7 +77,7 @@ SQLException {
                        
            System.out.println(name + " " + score); 
            PreparedStatement preparedstatement = connection.prepareStatement(insertString); 
-            // The following statements replace the five "?" symbols with the arguments 
+            // The following statements replace the two "?" symbols with the arguments 
             preparedstatement.setString(1, name); 
             preparedstatement.setInt(2, score); 
            
